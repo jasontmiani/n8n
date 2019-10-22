@@ -1,9 +1,9 @@
 {
-  "name": "n8n",
-  "private": true,
-  "homepage": "https://n8n.io",
+  "name": "kixie-n8n",
+  "homepage": "",
   "scripts": {
     "bootstrap": "lerna bootstrap --hoist --no-ci",
+    "herostart": "npm install && npm build && npm start",
     "build": "lerna exec npm run build",
     "dev": "lerna exec npm run dev --parallel",
     "start": "run-script-os",
